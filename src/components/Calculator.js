@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function Button() {
+function Calculator() {
     let [question, setQuestion] = useState('')
 
     const handleClick = (e) => {
@@ -90,4 +90,4 @@ function Button() {
     );
   }
   
-  export default Button;
+  export default Calculator;
